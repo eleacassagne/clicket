@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import LoginForm from "./components/LoginForm";
 import Navbar from "./components/Navbar/Navbar";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -85,7 +86,6 @@ function App() {
       <div className="App">
         <Navbar></Navbar>
 
-  
         <Router>
         
             <Routes>
@@ -105,7 +105,8 @@ function App() {
                   <LoginForm Login={Login} error={error}></LoginForm>
                   </div>
                 )}
-                 />
+                
+                />
 
                 
           </Routes>
