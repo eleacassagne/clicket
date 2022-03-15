@@ -2,7 +2,7 @@ export const Menuitems = [
   
     {
       title: "Market Place",
-      url: "/",
+      url: "/MarketPlace",
       cName: "nav-links",
     },
   
