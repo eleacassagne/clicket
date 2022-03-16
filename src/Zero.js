@@ -5,7 +5,7 @@ let zero = [
       seller: { _id: "5b21ca3eeb7f6fbccd471818", name: "Adam" },
       UserRating: 4.3,
       Day: "05/03/2022",
-      Price: "10",
+      Price: "10.00",
     },
     {
       _id: "5b21ca3eeb7f6fbccd471815",
@@ -13,7 +13,7 @@ let zero = [
       seller: { _id: "5b21ca3eeb7f6fbccd471818", name:"Awsat" },
       UserRating: 5,
       Day: "06/03/2022",
-      Price: "12"
+      Price: "12.00"
       
     },
     {
@@ -22,7 +22,7 @@ let zero = [
       seller: { _id: "5b21ca3eeb7f6fbccd471818", name:"Nico" },
       UserRating: 4,
       Day: "20/03/2022",
-      Price: "13"
+      Price: "13.00"
       
     },
     {
@@ -31,7 +31,7 @@ let zero = [
       seller: { _id: "5b21ca3eeb7f6fbccd471818", name:"Nico" },
       UserRating: 4,
       Day: "22/03/2022",
-      Price: "07"
+      Price: "7.00"
       
     },
   ];

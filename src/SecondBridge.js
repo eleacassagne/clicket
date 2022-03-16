@@ -5,7 +5,7 @@ let secondbridge = [
       seller: { _id: "5b21ca3eeb7f6fbccd471818", name: "Adam" },
       UserRating: 4.3,
       Day: "05/03/2022",
-      Price: "03"
+      Price: "3.00"
       
     },
     {
@@ -14,7 +14,7 @@ let secondbridge = [
       seller: { _id: "5b21ca3eeb7f6fbccd471818", name:"Louis" },
       UserRating: 5,
       Day: "06/03/2022",
-      Price: "05"
+      Price: "5.00"
     },
     {
       _id: "5b21ca3eeb7f6fbccd471815",
@@ -22,7 +22,7 @@ let secondbridge = [
       seller: { _id: "5b21ca3eeb7f6fbccd471818", name:"Joe" },
       UserRating: 4,
       Day: "20/03/2022",
-      Price: "09"
+      Price: "9.00"
       
     },
     {
@@ -31,7 +31,7 @@ let secondbridge = [
       seller: { _id: "5b21ca3eeb7f6fbccd471818", name:"Joe" },
       UserRating: 4,
       Day: "22/03/2022",
-      Price: "04"
+      Price: "4.00"
       
     },
   ];

@@ -3,7 +3,7 @@ import { getZero, deleteTicketZero  } from "../Zero";
 import { getSecondBridge, deleteTicketSecondBridge} from "../SecondBridge";
 import { getLabyrinth, deleteTicketLabyrinth } from "../Labyrinth";
 import { getScore, deleteTicketScore} from "../Score";
-
+import "./Clubs.css"
 
 class Clubs extends Component {
   state = {
@@ -47,50 +47,45 @@ class Clubs extends Component {
     return (
       
       <div>
-        <span>Click on the club that you are searching tickets for:      </span>
-        <button
-          onClick={() => this.handleChange(1)}
-        >
-          ZeroZero
-        </button>
-        <button
-          onClick={() => this.handleChange(2)}
-        >
-          Second Bridge
-        </button>
-        <button
-          onClick={() => this.handleChange(3)}
-        >
-          Labyrinth
-        </button>
-        <button
-          onClick={() => this.handleChange(4)}
-        >
-          Score
-        </button>
+        <div className="club-options">
+          <span className="club-button">Click on the club that you are searching tickets for: </span>
+          <button className = "club-button" onClick={() => this.handleChange(1)}>
+            ZeroZero
+          </button>
+          <button className = "club-button" onClick={() => this.handleChange(2)}>
+            Second Bridge
+          </button>
+          <button className = "club-button" onClick={() => this.handleChange(3)}>
+            Labyrinth
+          </button>
+          <button className = "club-button" onClick={() => this.handleChange(4)}>
+            Score
+          </button>
+        </div>
 
       <table className="table">
-      <thead>
-        <tr>
-          <th>Club</th>
-          <th>Seller</th>
-          <th>Date</th>
-          <th>User Rating</th>
-          <th>Price</th>
-        </tr>
-      </thead>
-      <tbody>
-        {this.state.clubs[this.state.choice].map((ticket) => (
-          <tr onClick= {() => this.BuyTicket(ticket)}>
-            <td>{ticket.club}</td>
-            <td>{ticket.seller.name}</td>
-            <td>{ticket.Day}</td>
-            <td>{ticket.UserRating}</td>
-            <td>{ticket.Price}</td>
+        <thead className="table-head">
+          <tr className="table-columns">
+            <th className="table-column">Club</th>
+            <th className="table-column">Seller</th>
+            <th className="table-column">Date</th>
+            <th className="table-column">User Rating</th>
+            <th className="table-column">Ticket Price</th>
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        
+        <tbody className="all-table-content">
+          {this.state.clubs[this.state.choice].map((ticket) => (
+            <tr onClick= {() => this.BuyTicket(ticket)}>
+              <td className="table-content">{ticket.club}</td>
+              <td className="table-content-seller">{ticket.seller.name}</td>
+              <td className="table-content">{ticket.Day}</td>
+              <td className="table-content">{ticket.UserRating}</td>
+              <td className="table-content">{ticket.Price}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
       
           

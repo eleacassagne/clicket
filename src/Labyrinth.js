@@ -5,7 +5,7 @@ let labyrinth = [
       seller: { _id: "5b21ca3eeb7f6fbccd471818", name: "Elea" },
       UserRating: 4.8,
       Day: "05/03/2022",
-      Price: "06"
+      Price: "6.00"
       
     },
     {
@@ -14,7 +14,7 @@ let labyrinth = [
       seller: { _id: "5b21ca3eeb7f6fbccd471818", name:"Dylan" },
       UserRating: 5,
       Day: "06/03/2022",
-      Price: "08"
+      Price: "8.00"
       
     },
     {
@@ -23,7 +23,7 @@ let labyrinth = [
       seller: { _id: "5b21ca3eeb7f6fbccd471818", name:"Fabio" },
       UserRating: 4,
       Day: "20/03/2022",
-      Price: "05"
+      Price: "5.00"
       
     },
     {
@@ -32,7 +32,7 @@ let labyrinth = [
       seller: { _id: "5b21ca3eeb7f6fbccd471818", name:"Nico" },
       UserRating: 4,
       Day: "22/03/2022",
-      Price: "05"
+      Price: "5.00"
       
     },
   ];

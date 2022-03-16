@@ -10,6 +10,7 @@ import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 
 
+
 export const Profile = (props) => {
   return (
     <div className="App">
