@@ -9,6 +9,8 @@ import Project from './components/Project'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 
+import Clubs from "./components/clubs"
+
 
 
 export const Profile = (props) => {
