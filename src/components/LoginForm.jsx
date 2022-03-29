@@ -1,14 +1,21 @@
 import React, { useState } from "react";
 
+
 function LoginForm({ Login, error }) {
+  
+  
   const [details, setDetails] = useState({ name: "", email: "", password: "" });
 
   const submitHandler = (e) => {
     e.preventDefault();
     Login(details);
   };
+  
+  
+  
 
   return (
+    
     <form onSubmit={submitHandler}>
       <div className="form-inner">
         <h2>Login</h2>
@@ -58,6 +65,8 @@ function LoginForm({ Login, error }) {
       </div>
     </form>
   );
+  
 }
+
 
 export default LoginForm;

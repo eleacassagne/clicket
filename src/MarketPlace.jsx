@@ -5,8 +5,9 @@ import Clubs from "./components/clubs"
 
 export const MarketPlace = (props) => {
   return (
-    <div> 
-      <Clubs></Clubs>
+    <div > 
+      
+      <Clubs setProfile = {props.setProfile} profile = {props.profiles}></Clubs>
     </div>
   );
 };

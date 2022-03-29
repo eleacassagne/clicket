@@ -3,8 +3,12 @@ import { Menuitems } from "./Menuitems";
 import "./Navbar.css";
 
 class Navbar extends Component {
-  state = { clicked: false };
-
+  state = { 
+    clicked: false,
+    
+  };
+  
+  
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
   };
@@ -20,7 +24,7 @@ class Navbar extends Component {
           {Menuitems.map((item, index) => {
             return (
               <li key={index}>
-                <a className={item.cName} href={item.url}>
+                <a className={item.cName} href={item.url} key = {index} >
                   {item.title}
                 </a>
               </li>
