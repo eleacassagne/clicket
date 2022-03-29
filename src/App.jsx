@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import { MarketPlace } from "./MarketPlace";
 import { Profile } from "./Profile";
+import Chat from "./Chat";
 
 
 function App() {
@@ -90,7 +91,7 @@ function App() {
         
             <Routes>
             
-              <Route path="/chats" element={<div>Hello this is the Chat</div>} />
+              <Route path="/chats" element={<Chat />} />
               <Route path="/profile" element={<Profile />}/>
 
               <Route path="/MarketPlace" element={<MarketPlace></MarketPlace>}/>
