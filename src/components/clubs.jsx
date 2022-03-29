@@ -36,7 +36,7 @@ class Clubs extends Component {
     }
     let date = 1;
     while(true){
-      date = prompt("what is the date? Needs to be of the format DD/MM/YYYY and exist in the calendar");
+      date = prompt("what is the date? Needs to be of the format MM/DD/YYYY and exist in the calendar");
       if(Date.parse(date) > 0){
           break;
       }else{
